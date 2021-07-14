@@ -1,6 +1,8 @@
 import { Button } from "./Button";
 import { GenreResponseProps } from "../models/index"
 
+import "../styles/sidebar.scss";
+
 interface SideBarProps {
   genres: GenreResponseProps[];
   selectedGenreId: number;
